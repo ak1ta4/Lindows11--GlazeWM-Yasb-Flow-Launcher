@@ -45,7 +45,7 @@ Mi entorno para "linuxificar" Windows 11 y que se parezca a un escritorio tipo i
 
 ## YASB
 
-Barra superior de 35 px en el monitor principal, con colores tomados del tema de Windows.
+Barra superior de 35 px en el monitor principal, con colores tomados del tema de Windows. Parte del tema [Okinami](https://github.com/MrDLingters/Okinami_YASB) de MrDLingters (ver [Créditos](#créditos)).
 
 - **Izquierda:** menú de inicio (`家`) con accesos a carpetas y la ventana activa.
 - **Centro:** reloj con calendario, visualizador de audio y el medio en reproducción.
@@ -70,3 +70,7 @@ Prefijos para los plugins:
 | `pm` | Instalar o gestionar plugins |
 
 Sin prefijo busca aplicaciones, archivos, ajustes del sistema y hace cálculos.
+
+## Créditos
+
+- **Tema de YASB:** [Okinami](https://github.com/MrDLingters/Okinami_YASB), de [MrDLingters](https://github.com/MrDLingters). Mi `yasb/config.yaml` y mi `yasb/styles.css` se basan en su código, publicado en [yasb-themes](https://github.com/amnweb/yasb-themes/tree/main/themes/b51c153d-397c-4be0-b7ed-4f619c6de87f).
