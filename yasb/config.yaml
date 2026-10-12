@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/amnweb/yasb/main/schema.json
+# Based on the Okinami theme by MrDLingters: https://github.com/MrDLingters/Okinami_YASB
 # For more information, visit https://github.com/amnweb/yasb/wiki
 watch_stylesheet: true
 watch_config: true
