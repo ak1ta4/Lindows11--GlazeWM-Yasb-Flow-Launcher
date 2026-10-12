@@ -31,7 +31,7 @@ Mi entorno para "linuxificar" Windows 11 y que se parezca a un escritorio tipo i
 | --- | --- |
 | `Alt + H/J/K/L` o flechas | Cambiar el foco |
 | `Alt + Shift + H/J/K/L` o flechas | Mover la ventana |
-| `Ctrl + 1/2/3/4` | Mover la ventana al monitor izquierdo / central / pequeño / derecho |
+| `Alt + Shift + 1/2/3/4` | Mover la ventana al monitor izquierdo / central / pequeño / derecho |
 | `Alt + U/I/O/P` | Redimensionar |
 | `Alt + R` | Modo redimensionar (HJKL/flechas, `Esc` para salir) |
 | `Alt + V` | Cambiar la dirección del mosaico |
