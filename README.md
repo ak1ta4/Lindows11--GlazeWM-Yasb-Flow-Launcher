@@ -1,6 +1,10 @@
 # glazewm-config
 
-Mi entorno de escritorio en Windows 11: [GlazeWM](https://github.com/glzr-io/glazewm) como gestor de ventanas en mosaico y [YASB](https://github.com/amnweb/yasb) como barra superior.
+Mi entorno para "linuxificar" Windows 11 y que se parezca a un escritorio tipo i3/Hyprland:
+
+- [GlazeWM](https://github.com/glzr-io/glazewm) como gestor de ventanas en mosaico.
+- [YASB](https://github.com/amnweb/yasb) como barra superior.
+- [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) como lanzador de aplicaciones al estilo rofi/wofi (`Ctrl + Q`).
 
 ## Estructura
 
@@ -43,3 +47,7 @@ Barra superior de 35 px en el monitor principal, con colores tomados del tema de
 - **Izquierda:** menú de inicio (`家`) con accesos a carpetas y la ventana activa.
 - **Centro:** reloj con calendario, visualizador de audio y el medio en reproducción.
 - **Derecha:** bandeja del sistema, volumen, notificaciones, idioma del teclado y centro de control.
+
+## Flow Launcher
+
+Sustituye al menú de inicio: con `Ctrl + Q` se abre una barra de búsqueda para lanzar aplicaciones, buscar archivos o hacer cálculos rápidos sin tocar el ratón. Su configuración no está en este repo.
