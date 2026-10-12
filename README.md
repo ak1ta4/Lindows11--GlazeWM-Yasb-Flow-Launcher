@@ -1,4 +1,6 @@
-# glazewm-config
+<h1 align="center">🐧 Windows 11, a lo Linux</h1>
+
+<p align="center"><b>GlazeWM</b> · <b>YASB</b> · <b>Flow Launcher</b></p>
 
 Mi entorno para "linuxificar" Windows 11 y que se parezca a un escritorio tipo i3/Hyprland:
 
@@ -14,6 +16,7 @@ Mi entorno para "linuxificar" Windows 11 y que se parezca a un escritorio tipo i
 | `yasb/config.yaml` | `~\.config\yasb\` | Barra y widgets de YASB |
 | `yasb/styles.css` | `~\.config\yasb\` | Estilos de la barra |
 | `yasb/yasb_colors.css` | `~\.config\yasb\` | Colores del sistema (lo genera YASB, no editar) |
+| `flowlauncher/` | `%APPDATA%\FlowLauncher\Settings\` | Ajustes de Flow Launcher y de sus plugins |
 
 ## GlazeWM
 
@@ -50,4 +53,20 @@ Barra superior de 35 px en el monitor principal, con colores tomados del tema de
 
 ## Flow Launcher
 
-Sustituye al menú de inicio: con `Ctrl + Q` se abre una barra de búsqueda para lanzar aplicaciones, buscar archivos o hacer cálculos rápidos sin tocar el ratón. Su configuración no está en este repo.
+Sustituye al menú de inicio: con `Ctrl + Q` se abre una barra de búsqueda para lanzar aplicaciones, buscar archivos o hacer cálculos rápidos sin tocar el ratón.
+
+Prefijos para los plugins:
+
+| Prefijo | Qué hace |
+| --- | --- |
+| `>` | Ejecutar un comando en la shell |
+| `kill` | Cerrar un proceso |
+| `b` | Buscar en los marcadores del navegador |
+| `s` | Abrir un ajuste de Windows |
+| `st` | Buscar juegos de Steam |
+| `vo` | Cambiar el volumen |
+| `t` | Añadir una tarea (MarkdownTodo) |
+| `doc:` | Buscar dentro del contenido de los archivos |
+| `pm` | Instalar o gestionar plugins |
+
+Sin prefijo busca aplicaciones, archivos, ajustes del sistema y hace cálculos.
