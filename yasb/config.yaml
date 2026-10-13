@@ -40,6 +40,7 @@ bars:
       - lines
       - active_window
       center:
+      - audio_visualizer_mirror
       - clock
       - audio_visualizer
       - media
@@ -58,7 +59,7 @@ widgets:
   home:
     type: yasb.home.HomeWidget
     options:
-      label: "<span>家</span>"
+      label: "<span>秋田</span>"
       menu_list:
       - title: User Home
         path: '~'
@@ -93,7 +94,7 @@ widgets:
         show_years: true
         show_holidays: false
         show_week_numbers: true
-        offset_left: 130
+        offset_left: 0
       callbacks:
         on_left: toggle_calendar
   volume:
@@ -573,7 +574,7 @@ widgets:
         on_left: "toggle_menu"
   audio_visualizer:
     type: "yasb.audio_visualizer.AudioVisualizerWidget"
-    options:
+    options: &audio_visualizer_options
       style: bars
       height: 12
       smoothness: 80
@@ -598,3 +599,10 @@ widgets:
         count: 30
         size: 1
         gap: 2
+  # Copia simétrica a la izquierda del reloj: mantiene el reloj en el centro
+  # del notch para que el popup del calendario quede centrado.
+  audio_visualizer_mirror:
+    type: "yasb.audio_visualizer.AudioVisualizerWidget"
+    options:
+      <<: *audio_visualizer_options
+      reverse: true

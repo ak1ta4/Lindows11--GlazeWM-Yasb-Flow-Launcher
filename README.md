@@ -48,8 +48,8 @@ Mi entorno para "linuxificar" Windows 11 y que se parezca a un escritorio tipo i
 
 Barra superior de 35 px en el monitor principal, con colores tomados del tema de Windows. Parte del tema [Okinami](https://github.com/MrDLingters/Okinami_YASB) de MrDLingters (ver [Créditos](#créditos)).
 
-- **Izquierda:** menú de inicio (`家`) con accesos a carpetas y la ventana activa.
-- **Centro:** reloj con calendario, visualizador de audio y el medio en reproducción.
+- **Izquierda:** menú de inicio (`秋田`) con accesos a carpetas y la ventana activa.
+- **Centro:** reloj con calendario, visualizador de audio a ambos lados (simétrico, para que el calendario quede centrado bajo el notch) y el medio en reproducción.
 - **Derecha:** bandeja del sistema, volumen, notificaciones, idioma del teclado y centro de control.
 
 ## Flow Launcher

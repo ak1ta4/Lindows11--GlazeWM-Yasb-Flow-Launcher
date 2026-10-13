@@ -364,11 +364,12 @@
 }
 
 /* Home Menu */
+/* 秋田 con tipografía serif japonesa */
 .home-widget .icon {
-    font-family: var(--system-font);
-    font-size: var(--fontSize);
+    font-family: "Noto Serif JP Black", "Yu Mincho Demibold", var(--system-font);
+    font-size: 14px;
     font-weight: bold;
-    color: var(--text);
+    color: var(--accent);
     padding-bottom: 1px;
 }
 
